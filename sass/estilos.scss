@@ -111,7 +111,7 @@ td{
     }
 }
 
-#videodefondo {
+#videodefondo, #videosurf {
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -129,6 +129,14 @@ td{
       background-size: cover;
     }
 }
+@media (max-width: 750px) {
+    #videosurf { display: none; }
+    body {
+      background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+      background-size: cover;
+    }
+}
+
 
 section{
     

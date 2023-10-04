@@ -41,6 +41,16 @@ div {
   border: 2px black;
 }
 
+.ticktabla {
+  width: 50%;
+  height: auto;
+}
+
+.cruztabla {
+  width: 50%;
+  height: auto;
+}
+
 .tipografia {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
@@ -80,4 +90,67 @@ footer {
 
 #contactanos {
   text-align: center;
+}
+
+table {
+  border-style: solid;
+}
+
+table tr {
+  margin: 0px;
+  padding: 0px;
+}
+
+table tr td {
+  border: solid;
+}
+
+#videodefondo {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (max-width: 750px) {
+  #videodefondo {
+    display: none;
+  }
+  body {
+    background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+    background-size: cover;
+  }
+}
+
+section h1, section h2 {
+  color: #777070;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+  text-align: center;
+}
+
+section h1 {
+  font-size: 6rem;
+  margin-top: 30vh;
+}
+
+section h2 {
+  font-size: 15px;
+}
+
+#porqueelegirnos {
+  margin-bottom: 100%;
+}
+
+.sinfondo {
+  background-color: none !important;
+}
+
+.especial {
+  font-size: 23px;
 }

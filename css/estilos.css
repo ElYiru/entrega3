@@ -1,199 +1,77 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
+* { margin: 0px; padding: 0px; }
 
-#boton {
-  margin: 20px;
-  text-align: center;
-}
+#boton { margin: 20px; text-align: center; }
 
-#persona1 {
-  margin-top: 10px;
-}
+#persona1 { margin-top: 10px; }
 
-#persona2 {
-  margin-top: 10px;
-}
+#persona2 { margin-top: 10px; }
 
-#persona3 {
-  margin-top: 10px;
-}
+#persona3 { margin-top: 10px; }
 
-#experienciaspasadas {
-  background-color: rgba(128, 128, 128, 0.414);
-  padding: 2px;
-}
+#experienciaspasadas { background-color: rgba(128, 128, 128, 0.414); padding: 2px; }
 
-#logo {
-  height: 100px;
-  width: auto;
-}
+#logo { height: 100px; width: auto; }
 
-#carrousel {
-  margin: 0%;
-  padding: 0%;
-  border-style: solid;
-}
+#carrousel { margin: 0%; padding: 0%; border-style: solid; }
 
-.ticktabla {
-  width: 50%;
-  height: auto;
-}
+.ticktabla { width: 50%; height: auto; }
 
-.cruztabla {
-  width: 50%;
-  height: auto;
-}
+.cruztabla { width: 50%; height: auto; }
 
-.tipografia {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-}
+.tipografia { font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
 
-.borde {
-  border-style: solid;
-  border-color: rgba(128, 128, 128, 0.178);
-}
+.borde { border-style: solid; border-color: rgba(128, 128, 128, 0.178); }
 
-.tipografia2 {
-  font-size: 12px;
-}
+.tipografia2 { font-size: 12px; }
 
-body {
-  overflow-x: hidden;
-}
+body { overflow-x: hidden; }
 
-body #h2 {
-  margin-left: 90px;
-  font-size: 50px;
-  margin-top: 0px;
-}
+body #h2 { margin-left: 90px; font-size: 50px; margin-top: 0px; }
 
-body #h1 {
-  font-size: 72px;
-  margin-left: 90px;
-  height: 0px;
-  margin-bottom: 0px;
-  display: inline-block;
-  text-align: left;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+body #h1 { font-size: 72px; margin-left: 90px; height: 0px; margin-bottom: 0px; display: inline-block; text-align: left; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
-footer {
-  background-color: rgba(128, 128, 128, 0.414);
-}
+footer { background-color: rgba(128, 128, 128, 0.414); }
 
-#contactanos {
-  text-align: center;
-}
+#contactanos { text-align: center; }
 
-table {
-  border-style: solid;
-}
+table { border-style: solid; }
 
-table tr {
-  margin: 0px;
-  padding: 0px;
-}
+table tr { margin: 0px; padding: 0px; }
 
-table tr td {
-  border: solid;
-}
+table tr td { border: solid; }
 
-#videodefondo, #videosurf {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-}
+#videodefondo, #videosurf { width: 100vw; height: 100vh; object-fit: cover; position: fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: -1; }
 
-@media (max-width: 750px) {
-  #videodefondo {
-    display: none;
-  }
-  body {
-    background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
-    background-size: cover;
-  }
-}
+@media (max-width: 750px) { #videodefondo { display: none; }
+  body { background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat; background-size: cover; } }
 
-@media (max-width: 750px) {
-  #videosurf {
-    display: none;
-  }
-  body {
-    background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
-    background-size: cover;
-  }
-}
+@media (max-width: 750px) { #videosurf { display: none; }
+  body { background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat; background-size: cover; } }
 
-section h1, section h2 {
-  color: #777070;
-  font-family: Trebuchet MS;
-  font-weight: bold;
-  text-align: center;
-}
+section h1, section h2 { color: #777070; font-family: Trebuchet MS; font-weight: bold; text-align: center; }
 
-section h1 {
-  font-size: 6rem;
-  margin-top: 30vh;
-}
+section h1 { font-size: 6rem; margin-top: 30vh; }
 
-section h2 {
-  font-size: 17px;
-}
+section h2 { font-size: 17px; }
 
-#porqueelegirnos {
-  margin-bottom: 15%;
-}
+#porqueelegirnos { margin-bottom: 15%; }
 
-.sinfondo {
-  background-color: none !important;
-}
+.sinfondo { background-color: none !important; }
 
-.especial {
-  font-size: 23px;
-}
+.especial { font-size: 23px; }
 
-#cuadro {
-  background-color: #4a4e58;
-}
+#cuadro { background-color: #4a4e58; }
 
-#logocuadro {
-  width: 250px;
-}
+#logocuadro { width: 250px; }
 
-#letrasmaincuadro {
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 600;
-}
+#letrasmaincuadro { font-family: 'Courier New', Courier, monospace; font-weight: 600; }
 
-#letrachicacuadro {
-  width: 17rem;
-  font-family: 'Courier New', Courier, monospace;
-}
+#letrachicacuadro { width: 17rem; font-family: 'Courier New', Courier, monospace; }
 
-.rounded-4 {
-  border-radius: 60px;
-}
+.rounded-4 { border-radius: 60px; }
 
-.rounded-5 {
-  border-radius: 30px;
-}
+.rounded-5 { border-radius: 30px; }
 
-.navbar {
-  --bs-bg-opacity: 0;
-}
+.navbar { --bs-bg-opacity: 0; }
 
-#flecha {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-bottom: 30%;
-}
+#flecha { display: block; margin-left: auto; margin-right: auto; width: 50%; margin-bottom: 30%; }
